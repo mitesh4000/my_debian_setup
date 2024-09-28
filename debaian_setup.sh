@@ -4,7 +4,7 @@
 sudo apt update
 
 # Define the packages to install
-packages=("git" "lf" "curl" "make" "vim" "i3-wm" "network-manager-applet" "fonts-jetbrains-mono" "fonts-material-design-icons-iconfont")
+packages=("git" "lf" "curl" "make" "cargo" "dmenu" "vim" "i3-wm" "network-manager-applet" "fonts-jetbrains-mono" "fonts-material-design-icons-iconfont")
 
 # Initialize an array to hold failed packages
 failed_packages=()
