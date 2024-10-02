@@ -10,7 +10,7 @@ if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
     git commit -m "$commitMessage"
 
     echo "available branches" 
-    git branch
+    git branch -a
     echo 'Enter the name of the branch:'
     read branch
 
