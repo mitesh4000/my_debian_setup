@@ -4,7 +4,7 @@
 sudo apt update
 
 # Define the packages to install
-packages=("git" "lf" "curl" "make" "vim")
+packages=("git" "lf" "curl" "make" "vim" "fonts-gujr-extra" "fonts-gargi" "bashtop")
 
 # Initialize an array to hold failed packages
 failed_packages=()
