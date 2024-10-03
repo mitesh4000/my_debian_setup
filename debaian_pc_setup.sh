@@ -4,8 +4,7 @@
 sudo apt update
 
 # Define the packages to install
-packages=("git" "lf" "curl" "make"  "dmenu" "vim" "i3-wm" "network-manager-applet" "fonts-jetbrains-mono" "lightdm" "x11-xsession-manager" "blueman" "feh")
-
+packages=("git" "lf" "curl" "make"  "dmenu" "vim" "i3-wm" "network-manager-applet" "fonts-jetbrains-mono" "lightdm" "x11-xsession-manager" "blueman" "feh" "dunst")
 # Initialize an array to hold failed packages
 failed_packages=()
 
