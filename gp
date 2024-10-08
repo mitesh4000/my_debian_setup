@@ -11,8 +11,8 @@ if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
 
     echo "available branches" 
     mapfile -t branches < <(git branch --format='%(refname:short)')
-for branch in "${branches[@]}"; do
-    echo "$branch"
+for index in "${!branches[@]}"; do
+    echo "$index: ${branches[$index]}"
 done
     echo 'Enter the name of the branch:'
     read branch
