@@ -14,7 +14,7 @@ if git rev-parse --is-inside-work-tree > /dev/null 2>&1; then
 for index in "${!branches[@]}"; do
     echo "$index: ${branches[$index]}"
 done
-if [ "$branch_count" -eq 1 ]; then
+if [ "${#branches[@]}" -eq 1 ]; then
     git push origin "${branches[0]}"
 
     echo "Pushed to only branch ${branches[0]}"
